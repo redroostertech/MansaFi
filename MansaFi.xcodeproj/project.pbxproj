@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF2CAA4BD93E029F44F27B2 /* Pods_MansaFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB04CA6B571BEA574C300D6D /* Pods_MansaFi.framework */; };
+		9B59E7641FE61A2A00F10EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59E7631FE61A2A00F10EF3 /* AppDelegate.swift */; };
+		9B59E7661FE61A2A00F10EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59E7651FE61A2A00F10EF3 /* ViewController.swift */; };
+		9B59E7691FE61A2A00F10EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B59E7671FE61A2A00F10EF3 /* Main.storyboard */; };
+		9B59E76B1FE61A2A00F10EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B59E76A1FE61A2A00F10EF3 /* Assets.xcassets */; };
+		9B59E76E1FE61A2A00F10EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B59E76C1FE61A2A00F10EF3 /* LaunchScreen.storyboard */; };
+		9B59E7761FE61C6A00F10EF3 /* MansaFiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B59E7751FE61C6A00F10EF3 /* MansaFiConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280438A0EB0F73AE93A069E3 /* Pods-MansaFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MansaFi.release.xcconfig"; path = "Pods/Target Support Files/Pods-MansaFi/Pods-MansaFi.release.xcconfig"; sourceTree = "<group>"; };
+		5D20CAE7D4A6C85658E0C268 /* Pods-MansaFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MansaFi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MansaFi/Pods-MansaFi.debug.xcconfig"; sourceTree = "<group>"; };
+		9B59E7601FE61A2900F10EF3 /* MansaFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MansaFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B59E7631FE61A2A00F10EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B59E7651FE61A2A00F10EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B59E7681FE61A2A00F10EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B59E76A1FE61A2A00F10EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B59E76D1FE61A2A00F10EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B59E76F1FE61A2A00F10EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B59E7751FE61C6A00F10EF3 /* MansaFiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MansaFiConfiguration.swift; sourceTree = "<group>"; };
+		DB04CA6B571BEA574C300D6D /* Pods_MansaFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MansaFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B59E75D1FE61A2900F10EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF2CAA4BD93E029F44F27B2 /* Pods_MansaFi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7F5C30F5C37C6E122C5A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB04CA6B571BEA574C300D6D /* Pods_MansaFi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B59E7571FE61A2900F10EF3 = {
+			isa = PBXGroup;
+			children = (
+				9B59E7621FE61A2900F10EF3 /* MansaFi */,
+				9B59E7611FE61A2900F10EF3 /* Products */,
+				B862EDBBCD98A3801068840B /* Pods */,
+				0A7F5C30F5C37C6E122C5A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B59E7611FE61A2900F10EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B59E7601FE61A2900F10EF3 /* MansaFi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B59E7621FE61A2900F10EF3 /* MansaFi */ = {
+			isa = PBXGroup;
+			children = (
+				9B59E7631FE61A2A00F10EF3 /* AppDelegate.swift */,
+				9B59E7751FE61C6A00F10EF3 /* MansaFiConfiguration.swift */,
+				9B59E7651FE61A2A00F10EF3 /* ViewController.swift */,
+				9B59E7671FE61A2A00F10EF3 /* Main.storyboard */,
+				9B59E76A1FE61A2A00F10EF3 /* Assets.xcassets */,
+				9B59E76C1FE61A2A00F10EF3 /* LaunchScreen.storyboard */,
+				9B59E76F1FE61A2A00F10EF3 /* Info.plist */,
+			);
+			path = MansaFi;
+			sourceTree = "<group>";
+		};
+		B862EDBBCD98A3801068840B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D20CAE7D4A6C85658E0C268 /* Pods-MansaFi.debug.xcconfig */,
+				280438A0EB0F73AE93A069E3 /* Pods-MansaFi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B59E75F1FE61A2900F10EF3 /* MansaFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B59E7721FE61A2A00F10EF3 /* Build configuration list for PBXNativeTarget "MansaFi" */;
+			buildPhases = (
+				5B0AF0DCD142EEC87C4ECA39 /* [CP] Check Pods Manifest.lock */,
+				9B59E75C1FE61A2900F10EF3 /* Sources */,
+				9B59E75D1FE61A2900F10EF3 /* Frameworks */,
+				9B59E75E1FE61A2900F10EF3 /* Resources */,
+				EE0A58085A43B3829D88CFBF /* [CP] Embed Pods Frameworks */,
+				004C8BA716F089516053FC1F /* [CP] Copy Pods Resources */,
+				9B59E7771FE61E4300F10EF3 /* Prepare for Distribution */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MansaFi;
+			productName = MansaFi;
+			productReference = 9B59E7601FE61A2900F10EF3 /* MansaFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B59E7581FE61A2900F10EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "RedRooster Technologies Inc.";
+				TargetAttributes = {
+					9B59E75F1FE61A2900F10EF3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B59E75B1FE61A2900F10EF3 /* Build configuration list for PBXProject "MansaFi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B59E7571FE61A2900F10EF3;
+			productRefGroup = 9B59E7611FE61A2900F10EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B59E75F1FE61A2900F10EF3 /* MansaFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B59E75E1FE61A2900F10EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59E76E1FE61A2A00F10EF3 /* LaunchScreen.storyboard in Resources */,
+				9B59E76B1FE61A2A00F10EF3 /* Assets.xcassets in Resources */,
+				9B59E7691FE61A2A00F10EF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004C8BA716F089516053FC1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MansaFi/Pods-MansaFi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0AF0DCD142EEC87C4ECA39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MansaFi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B59E7771FE61E4300F10EF3 /* Prepare for Distribution */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare for Distribution";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LINK_ROOT=${PODS_ROOT:+$PODS_ROOT/Plaid/ios}\ncp \"${LINK_ROOT:-$PROJECT_DIR}\"/LinkKit.framework/prepare_for_distribution.sh \"${CODESIGNING_FOLDER_PATH}\"/Frameworks/LinkKit.framework/prepare_for_distribution.sh\n\"${CODESIGNING_FOLDER_PATH}\"/Frameworks/LinkKit.framework/prepare_for_distribution.sh";
+		};
+		EE0A58085A43B3829D88CFBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MansaFi/Pods-MansaFi-frameworks.sh",
+				"${PODS_ROOT}/Plaid/ios/LinkKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MansaFi/Pods-MansaFi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B59E75C1FE61A2900F10EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B59E7761FE61C6A00F10EF3 /* MansaFiConfiguration.swift in Sources */,
+				9B59E7661FE61A2A00F10EF3 /* ViewController.swift in Sources */,
+				9B59E7641FE61A2A00F10EF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B59E7671FE61A2A00F10EF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B59E7681FE61A2A00F10EF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B59E76C1FE61A2A00F10EF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B59E76D1FE61A2A00F10EF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B59E7701FE61A2A00F10EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B59E7711FE61A2A00F10EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B59E7731FE61A2A00F10EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D20CAE7D4A6C85658E0C268 /* Pods-MansaFi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PSWQPK482;
+				INFOPLIST_FILE = MansaFi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = redroostertech.MansaFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B59E7741FE61A2A00F10EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280438A0EB0F73AE93A069E3 /* Pods-MansaFi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PSWQPK482;
+				INFOPLIST_FILE = MansaFi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = redroostertech.MansaFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B59E75B1FE61A2900F10EF3 /* Build configuration list for PBXProject "MansaFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59E7701FE61A2A00F10EF3 /* Debug */,
+				9B59E7711FE61A2A00F10EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B59E7721FE61A2A00F10EF3 /* Build configuration list for PBXNativeTarget "MansaFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B59E7731FE61A2A00F10EF3 /* Debug */,
+				9B59E7741FE61A2A00F10EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B59E7581FE61A2900F10EF3 /* Project object */;
+}
