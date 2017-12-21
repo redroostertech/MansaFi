@@ -33,7 +33,7 @@ class ViewController: UIViewController, PLKPlaidLinkViewDelegate {
         if notification.name.rawValue == "PLDPlaidLinkSetupFinished" {
             NotificationCenter.default.removeObserver(self, name: notification.name, object: nil)
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            self.linkConfigurationFromAppDelegate = appDelegate.LinkConfiguration!
+            self.linkConfigurationFromAppDelegate = appDelegate.LinkConfiguration
         }
     }
     
@@ -52,18 +52,20 @@ class ViewController: UIViewController, PLKPlaidLinkViewDelegate {
     //  Metadata is important because it gives you information about what the heck is going on during the login flow. 
     func linkViewController(_ linkViewController: PLKPlaidLinkViewController, didSucceedWithPublicToken publicToken: String, metadata: [String : Any]?) {
         self.dismiss(animated: true) {
-            print(publicToken, metadata)
+            UserDefaults.standard.set(publicToken, forKey: "uToken")
+            self.performSegue(withIdentifier: "goToHomeScreen", sender: self)
+            //  print("Success:", publicToken, metadata)
         }
     }
     
     func linkViewController(_ linkViewController: PLKPlaidLinkViewController, didExitWithError error: Error?, metadata: [String : Any]?) {
         self.dismiss(animated: true) {
-            print(error, metadata)
+            //  print("Error:", error, metadata)
         }
     }
     
     func linkViewController(_ linkViewController: PLKPlaidLinkViewController, didHandleEvent event: String, metadata: [String : Any]?) {
-        print(event, metadata)
+        //  print("Event:",event, metadata)
     }
 }
 

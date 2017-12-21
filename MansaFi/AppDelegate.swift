@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //  MARK:- Set up PlaidLink
         let PlaidKeys = MansaFiConfiguration.Plaid()
-        self.LinkConfiguration = PLKConfiguration(key: PlaidKeys.PublicKey, env: PLKEnvironment.development, product: [PLKProduct.auth, PLKProduct.connect, PLKProduct.identity])
+        self.LinkConfiguration = PLKConfiguration(key: PlaidKeys.PublicKey, env: PLKEnvironment.sandbox, product: [PLKProduct.auth, PLKProduct.connect, PLKProduct.transactions])
         self.LinkConfiguration.clientName = PlaidKeys.ClientName
         PLKPlaidLink.setup(with: LinkConfiguration) {
             (success, error) in
